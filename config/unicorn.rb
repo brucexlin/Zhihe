@@ -20,7 +20,8 @@ else
 end
 
 listen File.expand_path('tmp/sockets/unicorn.sock', ENV['RAILS_ROOT']), :backlog => 64
-listen(3000, backlog: 64) if ENV['RAILS_ENV'] == 'development'
+# listen(3000, backlog: 64) if ENV['RAILS_ENV'] == 'development'
+
 
 stderr_path app_path + '/log/unicorn.log'
 stdout_path app_path + '/log/unicorn.log'
