@@ -3,4 +3,13 @@
   <data-source source="LOCAL" name="Rails Zhihe: development" uuid="97615e2a-b13b-4c9b-b559-f49e453c19cc">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails Zhihe: default" uuid="dbae97b1-57ca-4ed0-97b1-a49cc7e95d7b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Zhihe: test" uuid="45ed0821-f76f-422b-a757-4e87e251b048">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails Zhihe: production" uuid="5b711256-672c-4082-99df-eb6b3d57a4cb">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

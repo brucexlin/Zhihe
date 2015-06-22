@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2471313273">
+  <component name="DataSourceManagerImpl" format="xml" hash="4215890911">
     <data-source source="LOCAL" name="Rails Zhihe: development" uuid="97615e2a-b13b-4c9b-b559-f49e453c19cc">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/zhihe</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc6dfcfdfdedfc7dfcfdfc3dfc4</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Zhihe: default" uuid="dbae97b1-57ca-4ed0-97b1-a49cc7e95d7b">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/zhihe</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc6dfcfdfdedfc7dfcfdfc3dfc4</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Zhihe: test" uuid="45ed0821-f76f-422b-a757-4e87e251b048">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/zhihe</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc6dfcfdfdedfc7dfcfdfc3dfc4</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails Zhihe: production" uuid="5b711256-672c-4082-99df-eb6b3d57a4cb">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/zhihe</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc6dfcfdfdedfc7dfcfdfc3dfc4</user-password>
       <libraries />
     </data-source>
   </component>
