@@ -3712,3 +3712,950 @@ Processing by Devise::RegistrationsController#new as HTML
   Rendered devise/shared/_links.html.erb (0.3ms)
   Rendered devise/registrations/new.html.erb within layouts/application (7.5ms)
 Completed 200 OK in 269ms (Views: 268.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-21 18:22:31 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1420ms (Views: 1401.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 18:22:33 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 18:22:34 -0700
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 18:22:48 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (543.3ms)
+Completed 200 OK in 929ms (Views: 822.1ms | ActiveRecord: 91.8ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 18:22:50 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (55.7ms)
+Completed 200 OK in 313ms (Views: 299.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for ::1 at 2015-06-21 18:22:52 -0700
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 257ms (Views: 255.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 18:22:54 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 258ms (Views: 257.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-21 18:22:59 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 290ms (Views: 289.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-21 18:23:14 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 320ms (Views: 319.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 18:23:14 -0700
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 18:23:16 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (50.9ms)
+Completed 200 OK in 297ms (Views: 296.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 18:23:19 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 250ms (Views: 249.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:07:14 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 847ms (Views: 834.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:07:17 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 295ms (Views: 293.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:07:19 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 267ms (Views: 266.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-06-21 19:07:21 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gYxlS0iNSSvOEoHmQMto6J7IavS/rpZpCeCeuDI7ogvmqGb3mIsi6atzZ4TK717uJ/TqbNacTOMIes+at83oiw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"注册"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 309ms (Views: 251.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:07:25 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 380ms (Views: 378.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:07:27 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 275ms (Views: 273.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:07:32 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 274ms (Views: 272.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:09:16 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 457ms (Views: 455.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 19:09:16 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:09:21 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 243ms (Views: 241.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 19:09:21 -0700
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:09:22 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 250ms (Views: 249.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:09:24 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 369ms (Views: 368.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:10:24 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 410ms (Views: 408.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 19:10:25 -0700
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:10:27 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 561ms (Views: 560.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:10:30 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 275ms (Views: 274.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:10:34 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 262ms (Views: 261.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:10:37 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 591ms (Views: 589.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:10:39 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 260ms (Views: 259.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:10:40 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 265ms (Views: 263.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:10:43 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 251ms (Views: 249.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:10:44 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 263ms (Views: 261.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:10:47 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 341ms (Views: 339.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:12:26 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 447ms (Views: 446.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 19:12:27 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-21 19:12:28 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 253ms (Views: 252.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 19:12:29 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 522ms (Views: 521.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-21 22:25:56 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 659ms (Views: 647.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-21 22:25:57 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-21 22:25:57 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-21 22:25:58 -0700
+
+
+Started GET "/" for ::1 at 2015-06-27 19:02:44 -0700
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.2) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.2) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.2) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.2) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (155.8ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (74.4ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (244.9ms)
+
+
+Started GET "/" for ::1 at 2015-06-27 19:03:15 -0700
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:567:in `retrieve_connection'
+  activerecord (4.2.2) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.2) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.2) lib/active_record/migration.rb:384:in `connection'
+  activerecord (4.2.2) lib/active_record/migration.rb:371:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/xindlin/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.8ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (80.7ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/xindlin/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (168.7ms)
+
+
+Started GET "/" for ::1 at 2015-06-27 19:03:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (111.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 5729ms (Views: 5677.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.self-8fcb4025c74f437f103c6896230f7c97350235017366e68fced99d51e0daa1b4.css?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/application.self-e1544561d4b245d93a0bf4e88d99c7461dfe427617791f20fae7549554bf6503.css?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-ed655b41e1edf0c929dd8770d24e28bd997239548355920635e9e897d4ef81b7.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-30a95da14f95230d148735924c00007eeed1499e1bf879fd6b366c104ca28d34.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-c8a1fd5abb429a3812574ee910fc66319e753f7aebba03431c0828e9c79a5cb6.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-658d1cd2252b534c354788eb33d71f9b6b0978e59349cff16da2b9928fee62f7.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-0d9867ec294bd7e5fac8bb16efa91fe7df9a7918cb2eb4edea6622b9abb65cf6.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/button.self-4e301a8b38b5bd54dc1399afd0651a4979d47f741ed0cd68b92e427417c6b7bf.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-ab14f4d0d588db83be49fd7d9b54949dab5786f141bc72e2b6439a56a8fe5281.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-5e32848a2e995d197f20dae17d309f9ff1f4b320d27835c05d26887d5dd7710e.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-65f156c28ec3b92818ee4e3cba8eb224c65b3b24e33f2652f8c44b086409854e.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-003b82359d5d360b2d88a46257c15d25e74ba250b7369e7a896bbc8d0696f67b.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-d686a205d65a9f61bc233262ab8a7d8834b0fe24189e04ae40829d299a25a5f2.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-b98f854490c37e771132652aed33cc5dc16cd645dd8f36662d08680f99dbcf39.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/twitter/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-06-27 19:03:24 -0700
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-27 19:04:34 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (484.7ms)
+Completed 200 OK in 892ms (Views: 747.2ms | ActiveRecord: 133.2ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-27 19:14:16 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 281ms (Views: 279.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-27 19:14:32 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (124.5ms)
+Completed 200 OK in 433ms (Views: 396.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-06-27 19:14:49 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 279ms (Views: 278.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-06-27 19:14:52 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 244ms (Views: 242.8ms | ActiveRecord: 0.0ms)
